@@ -16,6 +16,7 @@ bool powerOfTwo(int n){
 int main(){
 	int n;
 	cin>>n;
-	cout<<powerOfTwo(n);
+	powerOfTwo(n)?cout<<"true":cout<<"false";
+	cout<<endl;
 	return 0;
 }
