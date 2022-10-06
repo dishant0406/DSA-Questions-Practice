@@ -14,6 +14,8 @@ int countSetBits(int n){
 int countSetBitsHack(int n){
 	int count=0;
 	while(n>0){
+
+		//removes the last set bit in one itration
 		n = n&(n-1);
 		count++;
 	}
